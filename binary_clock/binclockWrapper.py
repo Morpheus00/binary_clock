@@ -55,7 +55,7 @@ class BinaryClock(tkinter.Frame):
         self.bgcolor = bgcolor
         self.pack(padx=1, pady=1)
         self.nbTicks = 2**self.nbBits
-        self.master.title("Binary Clock 0.0.1")
+        self.master.title("Binary Clock 0.0.2")
         self.scheduler = sched.scheduler(myTime, time.sleep)
         self.images = dict(
             on=ImageTk.PhotoImage(colorTransparency(image_on, "#000000"), master=master),

@@ -8,7 +8,7 @@ def readme():
         return f.read()
 
 setup(name='binary_clock',
-      version='0.0.1',
+      version='0.0.2',
       description='Truly Binary Clock',
       long_description=readme(),
       classifiers=[
