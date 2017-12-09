@@ -57,7 +57,7 @@ All the code is in file ``binclockWrapper.py``, launched by command line script 
 ``side`` and ``color``
   For the *flat* mode.
   In the latter case, ``side`` is the number of pixels per side, and ``color`` a string in format '#rrggbb' in hexadecimal.
-  For instance, yellow is '#00ffff'.
+  For instance, yellow is '#ffff00'.
 
 ``imageon`` and ``imageoff``
   Strings for filenames, for the *image* mode. If provided, options ``side`` and ``color`` are ignored.
